@@ -1,0 +1,8 @@
+appdirs==1.4.3
+nltk==3.2.2
+numpy==1.12.1
+packaging==16.8
+PyML==0.7.14
+pyparsing==2.2.0
+six==1.10.0
+stemming==1.0.1
