@@ -2,29 +2,46 @@ box: python:2.7
 dev:
   steps:
     - pip-install
+    - script:
+        name: pyml install
+        code: |
+          cd PyML-0.7.14 && python setup.py build && python setup.py install
+
+    - script:
+        name: nltk punkt install
+        code: |
+          python -m nltk.downloader punkt
+
+    - script:
+        name: nltk wordnet install
+        code: |
+          python -m nltk.downloader wordnet
+    
+    - script:
+        name: nltk brown install
+        code: |
+          python -m nltk.downloader brown
+
+    - script:
+        name: nltk conll install
+        code: |
+          python -m nltk.downloader conll2000 && python -m nltk.downloader conll2002
+
+    - script:
+        name: nltk treebank install
+        code: |
+          python -m nltk.downloader treebank
+
+    - script:
+        name: python unit test
+        code: |
+          nosetests server_tests.py
     - internal/watch:
         code: python server.py
         reload: true
 
-# This is the build pipeline. Pipelines are the core of wercker
-# Read more about pipelines on our dev center
-# http://devcenter.wercker.com/docs/pipelines/index.html
 build:
-  # The steps that will be executed on build
-  # Steps make up the actions in your pipeline
-  # Read more about steps on our dev center:
-  # http://devcenter.wercker.com/docs/steps/index.html
   steps:
-    # A step that sets up the python virtual environment
-    # - virtualenv:
-    #     name: setup virtual environment
-    #     install_wheel: false # Enable wheel to speed up builds (experimental)
-
-    # # Use this virtualenv step for python 3.2
-    # - virtualenv
-    #     name: setup virtual environment
-    #     python_location: /usr/bin/python3.6
-
     # A step that executes `pip install` command.
     - pip-install
 
@@ -33,32 +50,32 @@ build:
     #     clean_wheel_dir: true
 
     - script:
-        name: PyML install
+        name: pyml install
         code: |
           cd PyML-0.7.14 && python setup.py build && python setup.py install
 
     - script:
-        name: NLTK punkt install
+        name: nltk punkt install
         code: |
           python -m nltk.downloader punkt
 
     - script:
-        name: NLTK wodnet install
+        name: nltk wordnet install
         code: |
           python -m nltk.downloader wordnet
     
     - script:
-        name: NLTK brown install
+        name: nltk brown install
         code: |
           python -m nltk.downloader brown
 
     - script:
-        name: NLTK conll install
+        name: nltk conll install
         code: |
           python -m nltk.downloader conll2000 && python -m nltk.downloader conll2002
 
     - script:
-        name: NLTK treebank install
+        name: nltk treebank install
         code: |
           python -m nltk.downloader treebank
 
