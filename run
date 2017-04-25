@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+cd PyML-0.7.14 && python setup build && python setup install
+gunicorn server:app
