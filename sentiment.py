@@ -18,11 +18,12 @@ import pickle
 from bootstrapping import Bootstrapping
 from pos import SequentialTagger
 from hp_classifiers import HpObj, HpSubj
-from polarity import PolarityClassifier  
+from polarity import PolarityClassifier
 from replacer import RepeatReplacer
 from terminal_colors import Tcolors
 
 DEBUG = False
+
 
 class Sentiment:
     """
@@ -31,7 +32,6 @@ class Sentiment:
         subjectivity and polarity classification. All sub modules except 
         from POS tagging are learning by experience.
     """
-    
     def __init__(self):
         self.pos_tagger = SequentialTagger()
         self.hp_obj = HpObj(debug=DEBUG)
@@ -65,7 +65,7 @@ class Sentiment:
                 results = {'positive':{'count' : 0, 'score' : 0, 'nscore' : 0},
                            'neutral':{'count' : 0, 'score' : 0, 'nscore' : 0},
                            'negative':{'count' : 0, 'score' : 0, 'nscore' : 0}}
-                
+
                 print
                 print Tcolors.ACT + " Checking block of text:"
                 for i, sentence in enumerate(sentences):
@@ -94,7 +94,7 @@ class Sentiment:
                     if DEBUG:
                         print Tcolors.RES + Tcolors.OKGREEN + " " + res + Tcolors.ENDC
                         print
-                    
+
                     # If sentence is subjective 
                     if result == 'subjective' or result is None:
                         # Proceed to polarity classification
@@ -262,7 +262,7 @@ class Sentiment:
                 pcount = results['positive']['count']
                 ncount = results['negative']['count'] 
                 total = len(sentences)
-                print float("%.2f" % (100 - ((float)(pcount + ncount)*100 / total)))
+                return float("%.2f" % (100 - ((float)(pcount + ncount)*100 / total)))
 
     def normalize(self, text):
         """

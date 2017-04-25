@@ -136,7 +136,7 @@ Vfeatured
 p49
 sg36
 F1.0
-ssV<subj> posted people
+ssV<subj> read
 p50
 (dp51
 g12
@@ -147,13 +147,27 @@ sg14
 S'subj'
 p52
 sg16
-Vposted people
+Vread
 p53
 sg18
 F1.0
-ssV<subj> get seat
+ssV<subj> posted people
 p54
 (dp55
+g12
+I35
+sg13
+I35
+sg14
+g52
+sg16
+Vposted people
+p56
+sg18
+F1.0
+ssV<subj> get seat
+p57
+(dp58
 g30
 g31
 sg32
@@ -162,32 +176,32 @@ sg33
 I9
 sg34
 Vget seat
-p56
+p59
 sg36
 F1.0
 ssS"<subj> 'm"
-p57
-(dp58
+p60
+(dp61
 S'subj_freq'
-p59
+p62
 I8
 sS'freq'
-p60
+p63
 I8
 sS'type'
-p61
-S'subj'
-p62
-sS'display'
-p63
-S"'m"
 p64
-sS'prob'
+S'subj'
 p65
+sS'display'
+p66
+S"'m"
+p67
+sS'prob'
+p68
 F1.0
 ssVdid <dobj>
-p66
-(dp67
+p69
+(dp70
 g12
 I26
 sg13
@@ -196,12 +210,12 @@ sg14
 g15
 sg16
 Vdid
-p68
+p71
 sg18
 F1.0
 ssVkeep <dobj>
-p69
-(dp70
+p72
+(dp73
 g30
 g39
 sg32
@@ -210,12 +224,12 @@ sg33
 I9
 sg34
 Vkeep
-p71
+p74
 sg36
 F1.0
 ssV<subj> featured
-p72
-(dp73
+p75
+(dp76
 g30
 g31
 sg32
@@ -224,12 +238,12 @@ sg33
 I9
 sg34
 Vfeatured
-p74
+p77
 sg36
 F1.0
 ssS'<subj> desired sentiment'
-p75
-(dp76
+p78
+(dp79
 g21
 I1
 sg22
@@ -238,32 +252,32 @@ sg23
 g24
 sg25
 S'desired sentiment'
-p77
+p80
 sg27
 F1.0
 ssS'<subj> found'
-p78
-(dp79
+p81
+(dp82
 S'subj_freq'
-p80
+p83
 I4
 sS'freq'
-p81
+p84
 I4
 sS'type'
-p82
-S'subj'
-p83
-sS'display'
-p84
-S'found'
 p85
-sS'prob'
+S'subj'
 p86
+sS'display'
+p87
+S'found'
+p88
+sS'prob'
+p89
 F1.0
 ssVconveyed <dobj>
-p87
-(dp88
+p90
+(dp91
 g30
 g39
 sg32
@@ -272,23 +286,9 @@ sg33
 I9
 sg34
 Vconveyed
-p89
-sg36
-F1.0
-ssS'<subj> sharing'
-p90
-(dp91
-g30
-g31
-sg32
-I14
-sg33
-I0
-sg34
-S'sharing'
 p92
 sg36
-F0.0
+F1.0
 ssVCalled <dobj>
 p93
 (dp94
@@ -362,17 +362,17 @@ F1.0
 ssS"'m <dobj>"
 p108
 (dp109
-g59
+g62
 I8
-sg60
+sg63
 I8
-sg61
+sg64
 S'dobj'
 p110
-sg63
+sg66
 S"'m"
 p111
-sg65
+sg68
 F1.0
 ssS'described <dobj>'
 p112
@@ -431,19 +431,19 @@ Vreleased
 p124
 sg36
 F1.0
-ssV<subj> conveyed
+ssV<subj> watched
 p125
 (dp126
-g30
-g31
-sg32
-I9
-sg33
-I9
-sg34
-Vconveyed
+g12
+I26
+sg13
+I26
+sg14
+g52
+sg16
+Vwatched
 p127
-sg36
+sg18
 F1.0
 ssV<subj> 'm nurse
 p128
@@ -468,17 +468,17 @@ F1.0
 ssS'found <dobj>'
 p137
 (dp138
-g80
+g83
 I4
-sg81
+sg84
 I4
-sg82
+sg85
 S'dobj'
 p139
-sg84
+sg87
 S'found'
 p140
-sg86
+sg89
 F1.0
 ssVblown <dobj>
 p141
@@ -658,16 +658,16 @@ F0.0
 ssS'<subj> found presentation'
 p184
 (dp185
-g80
-I4
-sg81
-I4
-sg82
 g83
+I4
 sg84
+I4
+sg85
+g86
+sg87
 S'found presentation'
 p186
-sg86
+sg89
 F1.0
 ssS'<subj> think'
 p187
@@ -774,23 +774,24 @@ S'sharing'
 p214
 sg36
 F0.0
-ssS'<subj> described'
+ssS'<subj> learning'
 p215
 (dp216
-g21
-I1
-sg22
-I1
-sg23
-g24
-sg25
-S'described'
+g3
+S'subj'
 p217
-sg27
+sg5
+I8
+sg6
+I8
+sg7
+S'learning'
+p218
+sg9
 F1.0
 ssVget <dobj>
-p218
-(dp219
+p219
+(dp220
 g30
 g39
 sg32
@@ -799,12 +800,12 @@ sg33
 I9
 sg34
 Vget
-p220
+p221
 sg36
 F1.0
 ssV<subj> wait
-p221
-(dp222
+p222
+(dp223
 g30
 g31
 sg32
@@ -813,12 +814,12 @@ sg33
 I7
 sg34
 Vwait
-p223
+p224
 sg36
 F1.0
 ssV<subj> Called Ad
-p224
-(dp225
+p225
+(dp226
 g30
 g31
 sg32
@@ -827,12 +828,12 @@ sg33
 I14
 sg34
 VCalled Ad
-p226
+p227
 sg36
 F1.0
 ssVCompiled <dobj>
-p227
-(dp228
+p228
+(dp229
 g30
 g39
 sg32
@@ -841,12 +842,12 @@ sg33
 I9
 sg34
 VCompiled
-p229
+p230
 sg36
 F1.0
 ssVread <dobj>
-p230
-(dp231
+p231
+(dp232
 g12
 I35
 sg13
@@ -855,12 +856,12 @@ sg14
 g15
 sg16
 Vread
-p232
+p233
 sg18
 F1.0
 ssV<subj> imagined
-p233
-(dp234
+p234
+(dp235
 g30
 g31
 sg32
@@ -869,38 +870,37 @@ sg33
 I9
 sg34
 Vimagined
-p235
+p236
 sg36
 F1.0
-ssV<subj> watched
-p236
-(dp237
-g12
-I26
-sg13
-I26
-sg14
-g52
-sg16
-Vwatched
-p238
-sg18
-F1.0
-ssS'<subj> learning'
+ssS'<subj> described'
+p237
+(dp238
+g21
+I1
+sg22
+I1
+sg23
+g24
+sg25
+S'described'
 p239
-(dp240
-g3
-S'subj'
-p241
-sg5
-I8
-sg6
-I8
-sg7
-S'learning'
-p242
-sg9
+sg27
 F1.0
+ssS'<subj> sharing'
+p240
+(dp241
+g30
+g31
+sg32
+I14
+sg33
+I0
+sg34
+S'sharing'
+p242
+sg36
+F0.0
 ssV<subj> bring
 p243
 (dp244
@@ -985,18 +985,18 @@ S'desired'
 p260
 sg27
 F1.0
-ssV<subj> read
+ssV<subj> conveyed
 p261
 (dp262
-g12
-I35
-sg13
-I35
-sg14
-g52
-sg16
-Vread
+g30
+g31
+sg32
+I9
+sg33
+I9
+sg34
+Vconveyed
 p263
-sg18
+sg36
 F1.0
 ss.

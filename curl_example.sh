@@ -1,0 +1,1 @@
+curl --data "text=This is some random text." 0.0.0.0:5000

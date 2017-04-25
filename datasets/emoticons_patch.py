@@ -12,15 +12,14 @@
 ####################################################################
 
 import os
-import sys
-
+BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 p_flag = False
 n_flag = False
 b_flag = False
 
 positives = {} #{"word1":{"typ":"", "pos1":"", "priorpolarity":}}
 negatives = {} #{"word1":{"type":"", "pos1":"", "priorpolarity":}} 
-emoticons_file = open("datasets/emoticons.data","r")
+emoticons_file = open(os.path.join(BASE_DIR, "emoticons.data"),"r")
 lines = emoticons_file.readlines()
 
 def patch_emoticons():
