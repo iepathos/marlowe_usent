@@ -10,5 +10,6 @@ python -m nltk.downloader conll2000
 python -m nltk.downloader conll2002
 python -m nltk.downloader treebank
 
+python sentiment.py "This is a test sentence to get the juices flowing."
 
 gunicorn server:app
