@@ -1,4 +1,14 @@
 #!/bin/bash
 set -e
 cd PyML-0.7.14 && python setup build && python setup install
+
+
+python -m nltk.downloader punkt
+python -m nltk.downloader wordnet
+python -m nltk.downloader brown
+python -m nltk.downloader conll2000
+python -m nltk.downloader conll2002
+python -m nltk.downloader treebank
+
+
 gunicorn server:app
