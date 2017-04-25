@@ -32,38 +32,36 @@ build:
     # - pip-install:
     #     clean_wheel_dir: true
 
-    - script :
+    - script:
         name: PyML install
         code: |
-        cd PyML-0.7.14 && python setup build && python setup install
+          cd PyML-0.7.14 && python setup build && python setup install
 
-    - script :
+    - script:
         name: NLTK punkt install
         code: |
-        python -m nltk.downloader punkt
+          python -m nltk.downloader punkt
 
-    - script :
+    - script:
         name: NLTK wodnet install
         code: |
-        python -m nltk.downloader wordnet
+          python -m nltk.downloader wordnet
     
-    - script :
+    - script:
         name: NLTK brown install
         code: |
-        python -m nltk.downloader brown
+          python -m nltk.downloader brown
 
-    - script :
+    - script:
         name: NLTK conll install
         code: |
-        python -m nltk.downloader conll2000 && python -m nltk.downloader conll2002
+          python -m nltk.downloader conll2000 && python -m nltk.downloader conll2002
 
-    - script :
+    - script:
         name: NLTK treebank install
         code: |
-        python -m nltk.downloader treebank
+          python -m nltk.downloader treebank
 
-    # A custom script step, name value is used in the UI
-    # and the code value contains the command that get executed
     - script:
         name: python unit test
         code: |
