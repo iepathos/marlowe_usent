@@ -1,0 +1,2 @@
+sleep 120
+python sentiment.py "This is a test sentence to get the juices flowing."
