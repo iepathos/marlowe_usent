@@ -10,4 +10,5 @@ python -m nltk.downloader conll2000
 python -m nltk.downloader conll2002
 python -m nltk.downloader treebank
 
+
 gunicorn server:app
