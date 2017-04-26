@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-cd PyML-0.7.14 && python setup.py build && python setup.py install
+cd PyML-0.7.14 && python setup.py build && python setup.py install && cd ..
 
 
 python -m nltk.downloader punkt
