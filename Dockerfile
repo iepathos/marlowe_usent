@@ -16,6 +16,8 @@ RUN python -m nltk.downloader conll2000
 RUN python -m nltk.downloader conll2002
 RUN python -m nltk.downloader treebank
 
+# initialize app
+RUN python sentiment.py "This is just a test sentence."
 
 # Run the app.  CMD is required to run on Heroku
 # $PORT is set by Heroku            
