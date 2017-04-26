@@ -1,0 +1,7 @@
+brown
+punkt
+wordnet
+brown
+conll2000
+conll2002
+treebank
