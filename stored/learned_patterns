@@ -136,7 +136,7 @@ Vfeatured
 p49
 sg36
 F1.0
-ssV<subj> read
+ssV<subj> posted people
 p50
 (dp51
 g12
@@ -147,27 +147,13 @@ sg14
 S'subj'
 p52
 sg16
-Vread
+Vposted people
 p53
 sg18
 F1.0
-ssV<subj> posted people
+ssV<subj> get seat
 p54
 (dp55
-g12
-I35
-sg13
-I35
-sg14
-g52
-sg16
-Vposted people
-p56
-sg18
-F1.0
-ssV<subj> get seat
-p57
-(dp58
 g30
 g31
 sg32
@@ -176,32 +162,32 @@ sg33
 I9
 sg34
 Vget seat
-p59
+p56
 sg36
 F1.0
 ssS"<subj> 'm"
-p60
-(dp61
+p57
+(dp58
 S'subj_freq'
-p62
+p59
 I8
 sS'freq'
-p63
+p60
 I8
 sS'type'
-p64
+p61
 S'subj'
-p65
+p62
 sS'display'
-p66
+p63
 S"'m"
-p67
+p64
 sS'prob'
-p68
+p65
 F1.0
 ssVdid <dobj>
-p69
-(dp70
+p66
+(dp67
 g12
 I26
 sg13
@@ -210,12 +196,12 @@ sg14
 g15
 sg16
 Vdid
-p71
+p68
 sg18
 F1.0
 ssVkeep <dobj>
-p72
-(dp73
+p69
+(dp70
 g30
 g39
 sg32
@@ -224,12 +210,12 @@ sg33
 I9
 sg34
 Vkeep
-p74
+p71
 sg36
 F1.0
 ssV<subj> featured
-p75
-(dp76
+p72
+(dp73
 g30
 g31
 sg32
@@ -238,12 +224,12 @@ sg33
 I9
 sg34
 Vfeatured
-p77
+p74
 sg36
 F1.0
 ssS'<subj> desired sentiment'
-p78
-(dp79
+p75
+(dp76
 g21
 I1
 sg22
@@ -252,32 +238,32 @@ sg23
 g24
 sg25
 S'desired sentiment'
-p80
+p77
 sg27
 F1.0
 ssS'<subj> found'
-p81
-(dp82
+p78
+(dp79
 S'subj_freq'
-p83
+p80
 I4
 sS'freq'
-p84
+p81
 I4
 sS'type'
-p85
+p82
 S'subj'
-p86
+p83
 sS'display'
-p87
+p84
 S'found'
-p88
+p85
 sS'prob'
-p89
+p86
 F1.0
 ssVconveyed <dobj>
-p90
-(dp91
+p87
+(dp88
 g30
 g39
 sg32
@@ -286,12 +272,12 @@ sg33
 I9
 sg34
 Vconveyed
-p92
+p89
 sg36
 F1.0
 ssVCalled <dobj>
-p93
-(dp94
+p90
+(dp91
 g30
 g39
 sg32
@@ -300,12 +286,12 @@ sg33
 I23
 sg34
 VCalled
-p95
+p92
 sg36
 F1.0
 ssVwait <dobj>
-p96
-(dp97
+p93
+(dp94
 g30
 g39
 sg32
@@ -314,12 +300,12 @@ sg33
 I7
 sg34
 Vwait
-p98
+p95
 sg36
 F1.0
 ssVforces <dobj>
-p99
-(dp100
+p96
+(dp97
 g12
 I26
 sg13
@@ -328,12 +314,12 @@ sg14
 g15
 sg16
 Vforces
-p101
+p98
 sg18
 F1.0
 ssV<subj> did
-p102
-(dp103
+p99
+(dp100
 g12
 I26
 sg13
@@ -342,12 +328,12 @@ sg14
 g52
 sg16
 Vdid
-p104
+p101
 sg18
 F1.0
 ssV<subj> blown
-p105
-(dp106
+p102
+(dp103
 g12
 I35
 sg13
@@ -356,42 +342,42 @@ sg14
 g52
 sg16
 Vblown
-p107
+p104
 sg18
 F1.0
 ssS"'m <dobj>"
-p108
-(dp109
-g62
+p105
+(dp106
+g59
 I8
-sg63
+sg60
 I8
-sg64
+sg61
 S'dobj'
-p110
-sg66
+p107
+sg63
 S"'m"
-p111
-sg68
+p108
+sg65
 F1.0
 ssS'described <dobj>'
-p112
-(dp113
+p109
+(dp110
 g21
 I1
 sg22
 I1
 sg23
 S'dobj'
-p114
+p111
 sg25
 S'described'
-p115
+p112
 sg27
 F1.0
 ssVposted <dobj>
-p116
-(dp117
+p113
+(dp114
 g12
 I35
 sg13
@@ -400,12 +386,12 @@ sg14
 g15
 sg16
 Vposted
-p118
+p115
 sg18
 F1.0
 ssV<subj> Called L
-p119
-(dp120
+p116
+(dp117
 g30
 g31
 sg32
@@ -414,12 +400,12 @@ sg33
 I7
 sg34
 VCalled L
-p121
+p118
 sg36
 F1.0
 ssVreleased <dobj>
-p122
-(dp123
+p119
+(dp120
 g30
 g39
 sg32
@@ -428,61 +414,47 @@ sg33
 I9
 sg34
 Vreleased
-p124
+p121
 sg36
 F1.0
-ssV<subj> watched
-p125
-(dp126
-g12
-I26
-sg13
-I26
-sg14
-g52
-sg16
-Vwatched
-p127
-sg18
-F1.0
 ssV<subj> 'm nurse
-p128
-(dp129
+p122
+(dp123
 S'type'
-p130
+p124
 S'subj'
-p131
+p125
 sS'freq'
-p132
+p126
 I1
 sS'subj_freq'
-p133
+p127
 I1
 sS'display'
-p134
+p128
 V'm nurse
-p135
+p129
 sS'prob'
-p136
+p130
 F1.0
 ssS'found <dobj>'
-p137
-(dp138
-g83
+p131
+(dp132
+g80
 I4
-sg84
+sg81
 I4
-sg85
+sg82
 S'dobj'
-p139
-sg87
+p133
+sg84
 S'found'
-p140
-sg89
+p134
+sg86
 F1.0
 ssVblown <dobj>
-p141
-(dp142
+p135
+(dp136
 g12
 I35
 sg13
@@ -491,32 +463,32 @@ sg14
 g15
 sg16
 Vblown
-p143
+p137
 sg18
 F1.0
 ssS'built <dobj>'
-p144
-(dp145
+p138
+(dp139
 S'type'
-p146
+p140
 S'dobj'
-p147
+p141
 sS'freq'
-p148
+p142
 I1
 sS'subj_freq'
-p149
+p143
 I0
 sS'display'
-p150
+p144
 S'built'
-p151
+p145
 sS'prob'
-p152
+p146
 F0.0
 ssV<subj> get
-p153
-(dp154
+p147
+(dp148
 g30
 g31
 sg32
@@ -525,12 +497,12 @@ sg33
 I9
 sg34
 Vget
-p155
+p149
 sg36
 F1.0
 ssV<subj> give
-p156
-(dp157
+p150
+(dp151
 g12
 I40
 sg13
@@ -539,12 +511,12 @@ sg14
 g52
 sg16
 Vgive
-p158
+p152
 sg18
 F1.0
 ssVtracks <dobj>
-p159
-(dp160
+p153
+(dp154
 g30
 g39
 sg32
@@ -553,10 +525,38 @@ sg33
 I9
 sg34
 Vtracks
-p161
+p155
 sg36
 F1.0
-ssV<subj> keep
+ssV<subj> conveyed
+p156
+(dp157
+g30
+g31
+sg32
+I9
+sg33
+I9
+sg34
+Vconveyed
+p158
+sg36
+F1.0
+ssV<subj> forces
+p159
+(dp160
+g12
+I26
+sg13
+I26
+sg14
+g52
+sg16
+Vforces
+p161
+sg18
+F1.0
+ssV<subj> released
 p162
 (dp163
 g30
@@ -566,55 +566,27 @@ I9
 sg33
 I9
 sg34
-Vkeep
+Vreleased
 p164
 sg36
 F1.0
-ssV<subj> forces
+ssS'block <dobj>'
 p165
 (dp166
-g12
-I26
-sg13
-I26
-sg14
-g52
-sg16
-Vforces
-p167
-sg18
-F1.0
-ssV<subj> released
-p168
-(dp169
-g30
-g31
-sg32
-I9
-sg33
-I9
-sg34
-Vreleased
-p170
-sg36
-F1.0
-ssS'block <dobj>'
-p171
-(dp172
 g21
 I1
 sg22
 I1
 sg23
-g114
+g111
 sg25
 S'block'
-p173
+p167
 sg27
 F1.0
 ssV<subj> was blown
-p174
-(dp175
+p168
+(dp169
 g12
 I35
 sg13
@@ -623,12 +595,12 @@ sg14
 g52
 sg16
 Vwas blown
-p176
+p170
 sg18
 F1.0
 ssV<subj> capture
-p177
-(dp178
+p171
+(dp172
 g30
 g31
 sg32
@@ -637,61 +609,61 @@ sg33
 I9
 sg34
 Vcapture
-p179
+p173
 sg36
 F1.0
 ssS'<subj> built'
-p180
-(dp181
-g146
+p174
+(dp175
+g140
 S'subj'
-p182
-sg148
+p176
+sg142
 I1
-sg149
+sg143
 I0
-sg150
+sg144
 S'built'
-p183
-sg152
+p177
+sg146
 F0.0
 ssS'<subj> found presentation'
-p184
-(dp185
+p178
+(dp179
+g80
+I4
+sg81
+I4
+sg82
 g83
-I4
 sg84
-I4
-sg85
-g86
-sg87
 S'found presentation'
-p186
-sg89
+p180
+sg86
 F1.0
 ssS'<subj> think'
-p187
-(dp188
+p181
+(dp182
 S'type'
-p189
+p183
 S'subj'
-p190
+p184
 sS'freq'
-p191
+p185
 I4
 sS'subj_freq'
-p192
+p186
 I4
 sS'display'
-p193
+p187
 S'think'
-p194
+p188
 sS'prob'
-p195
+p189
 F1.0
 ssVgive <dobj>
-p196
-(dp197
+p190
+(dp191
 g12
 I40
 sg13
@@ -700,27 +672,27 @@ sg14
 g15
 sg16
 Vgive
-p198
+p192
 sg18
 F1.0
 ssS'think <dobj>'
-p199
-(dp200
-g189
+p193
+(dp194
+g183
 S'dobj'
-p201
-sg191
+p195
+sg185
 I4
-sg192
+sg186
 I4
-sg193
+sg187
 S'think'
-p202
-sg195
+p196
+sg189
 F1.0
 ssV<subj> posted
-p203
-(dp204
+p197
+(dp198
 g12
 I35
 sg13
@@ -729,12 +701,26 @@ sg14
 g52
 sg16
 Vposted
-p205
+p199
 sg18
 F1.0
+ssV<subj> Called Land
+p200
+(dp201
+g30
+g31
+sg32
+I23
+sg33
+I23
+sg34
+VCalled Land
+p202
+sg36
+F1.0
 ssV<subj> Called D
-p206
-(dp207
+p203
+(dp204
 g30
 g31
 sg32
@@ -743,12 +729,12 @@ sg33
 I7
 sg34
 VCalled D
-p208
+p205
 sg36
 F1.0
 ssV<subj> Called
-p209
-(dp210
+p206
+(dp207
 g30
 g31
 sg32
@@ -757,12 +743,12 @@ sg33
 I23
 sg34
 VCalled
-p211
+p208
 sg36
 F1.0
 ssS'sharing <dobj>'
-p212
-(dp213
+p209
+(dp210
 g30
 g39
 sg32
@@ -771,111 +757,12 @@ sg33
 I0
 sg34
 S'sharing'
-p214
+p211
 sg36
 F0.0
-ssS'<subj> learning'
-p215
-(dp216
-g3
-S'subj'
-p217
-sg5
-I8
-sg6
-I8
-sg7
-S'learning'
-p218
-sg9
-F1.0
-ssVget <dobj>
-p219
-(dp220
-g30
-g39
-sg32
-I9
-sg33
-I9
-sg34
-Vget
-p221
-sg36
-F1.0
-ssV<subj> wait
-p222
-(dp223
-g30
-g31
-sg32
-I7
-sg33
-I7
-sg34
-Vwait
-p224
-sg36
-F1.0
-ssV<subj> Called Ad
-p225
-(dp226
-g30
-g31
-sg32
-I14
-sg33
-I14
-sg34
-VCalled Ad
-p227
-sg36
-F1.0
-ssVCompiled <dobj>
-p228
-(dp229
-g30
-g39
-sg32
-I9
-sg33
-I9
-sg34
-VCompiled
-p230
-sg36
-F1.0
-ssVread <dobj>
-p231
-(dp232
-g12
-I35
-sg13
-I35
-sg14
-g15
-sg16
-Vread
-p233
-sg18
-F1.0
-ssV<subj> imagined
-p234
-(dp235
-g30
-g31
-sg32
-I9
-sg33
-I9
-sg34
-Vimagined
-p236
-sg36
-F1.0
 ssS'<subj> described'
-p237
-(dp238
+p212
+(dp213
 g21
 I1
 sg22
@@ -884,26 +771,125 @@ sg23
 g24
 sg25
 S'described'
-p239
+p214
 sg27
 F1.0
-ssS'<subj> sharing'
-p240
-(dp241
+ssV<subj> read
+p215
+(dp216
+g12
+I35
+sg13
+I35
+sg14
+g52
+sg16
+Vread
+p217
+sg18
+F1.0
+ssV<subj> wait
+p218
+(dp219
+g30
+g31
+sg32
+I7
+sg33
+I7
+sg34
+Vwait
+p220
+sg36
+F1.0
+ssV<subj> Called Ad
+p221
+(dp222
 g30
 g31
 sg32
 I14
 sg33
-I0
+I14
 sg34
-S'sharing'
-p242
+VCalled Ad
+p223
 sg36
-F0.0
+F1.0
+ssVCompiled <dobj>
+p224
+(dp225
+g30
+g39
+sg32
+I9
+sg33
+I9
+sg34
+VCompiled
+p226
+sg36
+F1.0
+ssVread <dobj>
+p227
+(dp228
+g12
+I35
+sg13
+I35
+sg14
+g15
+sg16
+Vread
+p229
+sg18
+F1.0
+ssV<subj> imagined
+p230
+(dp231
+g30
+g31
+sg32
+I9
+sg33
+I9
+sg34
+Vimagined
+p232
+sg36
+F1.0
+ssV<subj> watched
+p233
+(dp234
+g12
+I26
+sg13
+I26
+sg14
+g52
+sg16
+Vwatched
+p235
+sg18
+F1.0
+ssS'<subj> learning'
+p236
+(dp237
+g3
+S'subj'
+p238
+sg5
+I8
+sg6
+I8
+sg7
+S'learning'
+p239
+sg9
+F1.0
 ssV<subj> bring
-p243
-(dp244
+p240
+(dp241
 g30
 g31
 sg32
@@ -912,12 +898,12 @@ sg33
 I9
 sg34
 Vbring
-p245
+p242
 sg36
 F1.0
 ssVcapture <dobj>
-p246
-(dp247
+p243
+(dp244
 g30
 g39
 sg32
@@ -926,12 +912,12 @@ sg33
 I9
 sg34
 Vcapture
-p248
+p245
 sg36
 F1.0
 ssV<subj> Compiled
-p249
-(dp250
+p246
+(dp247
 g30
 g31
 sg32
@@ -940,9 +926,23 @@ sg33
 I9
 sg34
 VCompiled
-p251
+p248
 sg36
 F1.0
+ssS'<subj> sharing'
+p249
+(dp250
+g30
+g31
+sg32
+I14
+sg33
+I0
+sg34
+S'sharing'
+p251
+sg36
+F0.0
 ssV<subj> imagined worlds
 p252
 (dp253
@@ -957,46 +957,46 @@ Vimagined worlds
 p254
 sg36
 F1.0
-ssV<subj> Called Land
+ssV<subj> keep
 p255
 (dp256
 g30
 g31
 sg32
-I23
+I9
 sg33
-I23
+I9
 sg34
-VCalled Land
+Vkeep
 p257
 sg36
 F1.0
-ssS'desired <dobj>'
+ssVget <dobj>
 p258
 (dp259
-g21
-I1
-sg22
-I1
-sg23
-g114
-sg25
-S'desired'
-p260
-sg27
-F1.0
-ssV<subj> conveyed
-p261
-(dp262
 g30
-g31
+g39
 sg32
 I9
 sg33
 I9
 sg34
-Vconveyed
-p263
+Vget
+p260
 sg36
+F1.0
+ssS'desired <dobj>'
+p261
+(dp262
+g21
+I1
+sg22
+I1
+sg23
+g111
+sg25
+S'desired'
+p263
+sg27
 F1.0
 ss.
