@@ -12,7 +12,7 @@ app = Flask(__name__)
 @app.route('/', methods=['POST'])
 def index():
     sentiment = Sentiment()
-    text = str(request.form.get('text'))
+    text = str(request.form.get('text').encode("utf8"))
     objectivity = float(sentiment.get_objectivity(text)) / 100
     data = {'objectivity': round(objectivity, 2)}
     return jsonify(data)

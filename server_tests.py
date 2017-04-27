@@ -35,6 +35,17 @@ class ServerTestCase(unittest.TestCase):
         response_json = json.loads(response.data)
         assert(response_json == expected_data)
 
+    def test_ascii_objectivity(self):
+        data = {
+            'text': u'\u2019',
+        }
+        expected_data = {
+            "objectivity": 1.0
+        }
+        response = self.app.post('/', data=data, follow_redirects=True)
+        response_json = json.loads(response.data)
+        assert(response_json == expected_data)
+
 
 if __name__ == '__main__':
     unittest.main()
