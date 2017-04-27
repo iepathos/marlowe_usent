@@ -11,7 +11,6 @@
 # Greece                                                           #
 ####################################################################
 
-import os
 import sys
 import nltk
 import pickle

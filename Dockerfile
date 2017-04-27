@@ -7,7 +7,7 @@ RUN apt-get install -y python-pip python-dev build-essential
 ADD . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-RUN cd PyML-0.7.14 && python setup.py build && python setup.py install
+# RUN cd PyML-0.7.14 && python setup.py build && python setup.py install
 
 RUN python -m nltk.downloader punkt
 RUN python -m nltk.downloader wordnet

@@ -11,10 +11,8 @@
 # Greece                                                           #
 ####################################################################
 
-import pickle 
-import os
-import sys 
-from datasets.emoticons_patch import patch_emoticons 
+import pickle
+from datasets.emoticons_patch import patch_emoticons
 
 class Lexicon:
     """

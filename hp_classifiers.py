@@ -13,7 +13,7 @@
 
 import sys
 import nltk
-from lexicon import Lexicon    
+from lexicon import Lexicon
 from stemming.porter2 import stem
 
 class HpSubj:

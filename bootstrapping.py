@@ -12,8 +12,8 @@
 ####################################################################
 
 import re
-import sys  
-import pickle 
+import sys
+import pickle
 from terminal_colors import Tcolors
 from pb_classifiers import PbSubj
 

@@ -13,9 +13,7 @@
 
 import os
 import sys
-import nltk
 import random
-import datetime
 from terminal_colors import Tcolors
 sys.path.append(os.path.abspath("") + "/../")
 

@@ -11,10 +11,8 @@
 # Greece                                                           #
 ####################################################################
 
-import os
-import sys
 import pickle
-import nltk.corpus, nltk.tag, itertools  
+import nltk.corpus, nltk.tag, itertools
 from terminal_colors import Tcolors
 
 class SequentialTagger:
