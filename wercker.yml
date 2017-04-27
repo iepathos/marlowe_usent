@@ -2,10 +2,6 @@ box: python:2.7
 dev:
   steps:
     - pip-install
-    # - script:
-    #     name: pyml install
-    #     code: |
-    #       cd PyML-0.7.14 && python setup.py build && python setup.py install
 
     - script:
         name: nltk punkt install
@@ -48,11 +44,6 @@ build:
     # # This pip-install clears the local wheel cache
     # - pip-install:
     #     clean_wheel_dir: true
-
-    - script:
-        name: pyml install
-        code: |
-          cd PyML-0.7.14 && python setup.py build && python setup.py install
 
     - script:
         name: nltk punkt install
