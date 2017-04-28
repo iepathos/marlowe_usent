@@ -1,10 +1,13 @@
-# Marlowe Objectivity
+# Marlowe Usent
 
+The marlowe_usent api for [Project Marlowe](https://github.com/iepathos/marlowe_devops)
 
-[![wercker status](https://app.wercker.com/status/c99eaec92cfe7bf8bd10050fc568d62c/s/master "wercker status")](https://app.wercker.com/project/byKey/c99eaec92cfe7bf8bd10050fc568d62c)
+[![wercker status](https://app.wercker.com/status/a3ce8fb13332db20af9904cebb5d46bf/s/master "wercker status")](https://app.wercker.com/project/byKey/a3ce8fb13332db20af9904cebb5d46bf)
 
 
 JSON API Server accepts text and returns an objectivity score.
+
+Usent machine learning based on [github.com/nik0spapp/usent](https://github.com/nik0spapp/usent)
 
 
 ## Testing
