@@ -46,6 +46,17 @@ class ServerTestCase(unittest.TestCase):
         response_json = json.loads(response.data)
         assert(response_json == expected_data)
 
+    def test_empty_text(self):
+        data = {
+            'wrong': 'Empty text field',
+        }
+        expected_data = {
+            "objectivity": 1.0
+        }
+        response = self.app.post('/', data=data, follow_redirects=True)
+        response_json = json.loads(response.data)
+        assert(response_json == expected_data)
+
 
 if __name__ == '__main__':
     unittest.main()
