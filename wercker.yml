@@ -38,12 +38,7 @@ dev:
 
 build:
   steps:
-    # A step that executes `pip install` command.
     - pip-install
-
-    # # This pip-install clears the local wheel cache
-    # - pip-install:
-    #     clean_wheel_dir: true
 
     - script:
         name: nltk punkt install
