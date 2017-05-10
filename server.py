@@ -17,7 +17,7 @@ def index():
     text = request.form.get('text')
     if text is not None:
         sentiment = Sentiment()
-        text = str(request.form.get('text').encode("utf8"))
+        text = str(request.form.get('text').encode("utf8")).strip()
         objectivity = float(sentiment.get_objectivity(text)) / 100
         data = {'objectivity': round(objectivity, 2)}
     else:
